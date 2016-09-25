@@ -3,13 +3,14 @@ import { BrowserModule } from '@angular/platform-browser'
 
 import { HighlightDirective } from './highlight.directive'
 import { AppComponent }  from './app.component'
-
+import { TitleComponent } from './title.component'
 
 @NgModule({
   imports: [ BrowserModule ],
   declarations: [
     AppComponent,
-    HighlightDirective
+    HighlightDirective,
+    TitleComponent,
   ],
   bootstrap:    [ AppComponent ]
 })
