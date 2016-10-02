@@ -13,13 +13,13 @@ import { UserService } from './user.service'
 })
 export class TitleComponent {
   @Input() subtitle = '';
-  title = 'Angular Modules';
+  title = 'Angular Modules'
+  user = ''
 
   constructor(
     userService: UserService
-  ) {
-    this.user = userService.userName
+    ) {
+      this.user = userService.userName
   }
-
 }
 
