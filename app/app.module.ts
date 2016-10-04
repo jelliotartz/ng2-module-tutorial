@@ -7,12 +7,13 @@ import { TitleComponent } from './title.component'
 import { UserService } from './user.service'
 
 import { ContactModule } from './contact/contact.module'
-
+import { routing } from './routing'
 
 @NgModule({
   imports: [
     BrowserModule,
     ContactModule,
+    routing,
   ],
   declarations: [
     AppComponent,
